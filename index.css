@@ -1,0 +1,75 @@
+:root{
+
+    --main-color-text:#fff;
+    --main-raduis:10px;
+    --main-green:hsl(75, 94%, 57%);
+}
+
+
+body{
+
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family:'Inter','arial' ,'sans-serif';
+}
+
+main{
+
+
+        margin:  auto;
+        margin-top: 15vh;
+        padding: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: var(--main-raduis);
+    color: var(--main-color-text);
+    background-color: hsl(0, 0%, 12%);
+
+}
+
+main > img{
+
+width: 85px;
+border-radius: 50px;
+margin: 10px 0;
+
+}
+
+main > h2{
+
+    margin-bottom: -3px;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.city {
+
+    color:var(--main-green) ;
+}
+
+
+ .jop{
+
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.sites{
+
+    background-color: hsl(0, 0%, 20%);
+    margin: 15px 0;
+    padding: 15px 0;
+    border-radius: var(--main-raduis);
+}
+
+.sites:hover{
+
+    background-color: var(--main-green);
+    color:hsl(0, 0%, 12%) ;
+    cursor: pointer;
+    
+}
+
+
+
